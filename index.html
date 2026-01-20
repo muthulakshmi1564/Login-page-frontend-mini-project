@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="reg.css">
+    <script src="reg.js"></script>4
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h2>Registration</h2>
+            <form onsubmit="return validateForm()">
+                <div class="row">
+                    <div class="input">
+                        <label>First Name</label>
+                        <input type="text" id="name" placeholder="Enter Your FirstName" required>
+                    </div>
+                    <div class="input">
+                        <label>Last Name</label>
+                        <input type="text" id="user" placeholder="Enter Your LastName" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input">
+                        <label>Email</label>
+                        <input type="text" id="email" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="input">
+                        <label>Phone Number</label>
+                        <input type="text" id="phone" placeholder="Enter Your Number" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input">
+                        <label>Password</label>
+                        <input type="password" id="pass" placeholder="Enter Your Password" required>
+                    </div>
+                    <div class="input">
+                        <label>Confirm Password</label>
+                        <input type="password" id="cpass" placeholder="Confirm Your Password" required>
+                    </div>
+                </div>
+                <div class="gender">
+                    <label>Gender</label>
+                    <div class="gender-options">
+                        <input type="radio" id="male" name="gender">Male
+                        <input type="radio" id="female" namne="gender">Female
+                    </div>
+                </div>
+                <button class="register" type="submit">Register</button>
+            </form>
+        </div>
+    </form>
+</body>
+
+</html>
