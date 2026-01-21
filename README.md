@@ -16,8 +16,12 @@ A simple registration form built using HTML, CSS, and JavaScript. Includes clien
 - JavaScript for form validation and user feedback
 
 ## How to Run
-1.Using vs code
-2. Save `index.html`, `reg.css`, and `reg.js` in the same folder.
-3. Open `index.html` in a web browser.
-4. Fill the registration form and submit.
+1.Using vs code(visual studio code)
+
+2. Save `index.html`, `reg.css`, and `reg.js` in the same folder
+ 
+3. Open `index.html` in a web browser
+ 
+4. Fill the registration form and submit
+ 
 
